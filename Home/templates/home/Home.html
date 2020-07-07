@@ -1,0 +1,9 @@
+
+{% extends 'home/Base.html' %}
+{% block content %}
+    <center><img class="masthead-avatar mb-5" src="{{ Contact.picture.url}}" alt=""></center>
+    <center>{{ Contact.description }}</center>
+<center>{{ Contact.name }}<br></center>
+<center>{{ Contact.email }}<br></center>
+<center>{{ Contact.number }}<br></center>
+{% endblock %}
